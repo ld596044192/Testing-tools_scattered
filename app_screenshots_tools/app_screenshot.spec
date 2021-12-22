@@ -5,9 +5,9 @@ block_cipher = None
 
 
 a = Analysis(['test1.py'],
-             pathex=['D:\\my_git\\Testing-tools_scattered\\app_screenshots_tools'],
+             pathex=['C:\\Users\\lida\\Desktop\\反编译'],
              binaries=[],
-             datas=[('doc','doc')],
+             datas=[('doc','doc'),('upgrade','upgrade')],
              hiddenimports=[],
              hookspath=[],
              hooksconfig={},
@@ -37,4 +37,4 @@ exe = EXE(pyz,
           disable_windowed_traceback=False,
           target_arch=None,
           codesign_identity=None,
-          entitlements_file=None )
+          entitlements_file=None , icon='my-da.ico')
